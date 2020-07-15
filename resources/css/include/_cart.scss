@@ -1,0 +1,97 @@
+.wish-list-page{
+	padding: 50px 0;
+	.cart-page{
+		.ed-table-cart{
+			table{
+				border: 1px solid transparent;
+				thead{
+					tr{
+						th{
+							font-weight: 600;
+							text-transform: uppercase;
+							text-align: center;
+							padding: 10px 0;
+							vertical-align: middle;
+							border: 0;
+							background: #f3f3f3;
+						}
+					}
+				}
+				tbody{
+					tr{
+						td{
+							padding: 10px;
+							vertical-align: middle;
+							text-align: center;
+							font-weight: 600;
+							border: 0;
+							font-size: 16px;
+							>h4{
+								margin: 0;
+								font-size: 15px;
+								font-weight: 600;
+							}
+							>p{
+								font-weight: 400;
+								font-size: 14px;
+								margin: 0;
+							}
+							.custom-input-number{
+								justify-content: center;
+								.cin-decrement{
+									border-radius: 0;
+								}
+								.cin-increment{
+									border-radius: 0;
+								}
+								.custom-input-number-1{
+									float: unset;
+								}
+							}
+							>a{
+								color: $black;
+							}
+							.btn-page{
+								>a{
+									font-weight: 600;
+									font-size: 14px;
+									background: #f3f3f3;
+									color: $black;
+									text-transform: uppercase;
+									padding: 10px 15px;
+									border-radius: 3px;
+									&:hover{
+										color: #fff;
+										background: $color;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ul{
+			text-align: right;
+			li{
+				display: inline-block;
+				margin-left: 20px;
+				.btn-page{
+					>a{
+						font-weight: 600;
+						font-size: 14px;
+						background: #f3f3f3;
+						color: $black;
+						text-transform: uppercase;
+						padding: 10px 15px;
+						border-radius: 3px;
+						&:hover{
+							color: #fff;
+							background: $color;
+						}
+					}
+				}
+			}
+		}
+	}
+}

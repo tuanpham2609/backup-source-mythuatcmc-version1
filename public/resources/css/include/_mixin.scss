@@ -1,0 +1,72 @@
+@mixin down($s) {
+    @if $s == "xs" {
+      @media screen and (max-width: 575px) {
+         @content;
+     }
+ }
+ @else if $s == "sm" {
+  @media screen and (max-width: 767px) {
+     @content;
+ }
+}
+@else if $s == "md" {
+  @media screen and (max-width: 991px) {
+     @content;
+ }
+}
+@else if $s == "lg" {
+  @media screen and (max-width: 1199px) {
+     @content;
+ }
+}
+}
+
+@mixin up($s) {
+   @if $s == "sm" {
+      @media screen and (min-width: 576px) {
+         @content;
+     }
+ }
+ @else if $s == "md" {
+  @media screen and (min-width: 768px) {
+     @content;
+ }
+}
+@else if $s == "lg" {
+  @media screen and (min-width: 992px) {
+     @content;
+ }
+}
+@else if $s == "xl" {
+  @media screen and (min-width: 1200px) {
+     @content;
+ }
+}
+}
+
+@mixin only($s) {
+   @if $s == "sm" {
+      @media screen and (min-width: 576px) and (max-width: 767px) {
+         @content;
+     }
+ }
+ @else if $s == "md" {
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+     @content;
+ }
+}
+@else if $s == "lg" {
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+     @content;
+ }
+}
+@else if $s == "xl" {
+  @media screen and (min-width: 1200px) {
+     @content;
+ }
+}
+}
+
+@mixin fs($size) {
+   font-size: $size / 16;
+}

@@ -1,0 +1,44 @@
+.contact-page{
+	padding-top: 50px ;
+	.maps{
+		margin-bottom: 30px;
+	}
+}
+.tuan-contac {
+	background: url(../images/background/login2.jpg) no-repeat;
+	background-size: cover;
+	padding: 10px;
+	color: #fff;
+	border-radius: 10px;
+	.title-about-page{
+		text-align: center;
+		margin-bottom: 30px;
+		h4{
+			font-weight: bold;
+			font-size: 24px;
+		}
+	}
+	.contact-address{
+		text-align: center;
+		margin-bottom: 30px;
+		>i{
+			font-size: 4em;
+			color: $color;
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+	.form-contact {
+		.form-group {
+			input {
+				border-radius: 20px;
+			}
+		}
+	}
+	.btn-tuan {
+		background-color: $blue;
+		padding: 8px 15px;
+		color: #fff;
+		border-radius: 18px;
+	}
+}

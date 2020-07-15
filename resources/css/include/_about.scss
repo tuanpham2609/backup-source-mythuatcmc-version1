@@ -1,0 +1,18 @@
+.about-page{
+	padding: 50px 0;
+	.about-page-left{
+		margin-bottom: 40px;
+		.apl-logo{
+			width: 140px;
+			margin-bottom: 20px;
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+	.about-page-right{
+		img{
+			width: 100%;
+		}
+	}
+}

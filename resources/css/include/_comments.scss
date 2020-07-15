@@ -1,0 +1,74 @@
+.customer-comment{
+	h4{
+		font-weight: 16px;
+		font-weight: 600;
+	}
+	.box-comment{
+		margin-bottom: 20px;
+		.avar-comment{
+			display: inline-block;
+			float: left;
+			margin-right: 20px;
+			>img{
+				border-radius: 50%;
+			}
+
+		}
+		.txt-comment{
+			display: table;
+			>h5{
+				font-size: 14px;
+				font-weight: 600;
+			}
+			>h6{
+				font-size: 14px;
+				color: #999999;
+				position: relative;
+				>a{
+					position: absolute;
+					width: 45px;
+					right: 0;
+					font-size: 18px;
+					color: #999999;
+				}
+			}
+		}
+	}
+	.form-rep{
+		margin-bottom: 30px;
+		>form{
+			textarea{
+				background: #f3f3f3;
+				border: 0;
+				box-shadow: none;
+			}
+			button{
+				background: $color;
+				color: #fff;
+				border: 1px solid transparent;
+				padding: 5px 20px;
+				font-size: 16px;
+				transition: all .5s ease;
+				&:hover{
+					background: #fff;
+					color: $color;
+					border: 1px solid;
+				}
+			}
+		}
+	}
+	.rep-comment{
+		padding-left: 50px;
+	}
+	.write-comment{
+		h4{
+			font-size: 16px;
+			font-weight: 600;
+			margin: 0;
+			margin-bottom: 20px;
+		}
+		.login-to-comment{
+			margin: 20px 0;
+		}
+	}
+}

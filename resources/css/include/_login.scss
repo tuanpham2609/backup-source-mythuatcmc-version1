@@ -1,0 +1,111 @@
+.login-page{
+	padding: 100px 0 50px;
+	background: url(../images/background/login.jpg) no-repeat;
+	background-size: cover;
+	.form-log{
+		background: rgba(#fff, 0.65);
+		padding: 90px 45px 50px;
+		position: relative;
+		border-radius: 5px;
+		.icon-user{
+			position: absolute;
+			top: -40px;
+			right: 50%;
+			transform: translateX(50%);
+			width: 85px;
+			height: 85px;
+			background: rgba(#2d719d, 0.75);
+			text-align: center;
+			border-radius: 50%;
+			>i{
+				font-size: 3em;
+				line-height: 85px;
+				color: #fff;
+			}
+		}
+		>h4{
+			font-size: 24px;
+			font-weight: 600px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		form{
+			h5{
+				font-size: 14px;
+				margin-bottom: 20px;
+				margin-top: 0;
+			}
+			input{
+				height: 43px;
+				background: #fff;
+				border: 0;
+				box-shadow: none;
+				padding-left: 40px;
+			}
+			button{
+				width: 100%;
+				background: #2d719d;
+				color: #fff;
+				text-transform: uppercase;
+				font-size: 14px;
+				font-weight: 600;
+				height: 40px;
+				margin: 0px 0 15px;
+				transition: all .5s ease;
+				border: 0;
+				&:hover{
+					background: #fff;
+					color: #2d719d;
+				}
+			}
+			.checkbx{
+				padding-bottom: 20px;
+				padding-top: 15px;
+				.checkbox-1{
+					margin-bottom: 0;
+					float: left;
+				}
+				>a{
+					float: right;
+					text-decoration: underline;
+					color: #2d719d;
+				}
+			}
+			.form-group{
+				position: relative;
+				>i{
+					position: absolute;
+					top: 15px;
+					left: 15px;
+					color: #9b9b9b;
+				}
+			}
+			>p{
+				width: 100%;
+				text-align: center;
+				border-top: 1px solid #fff;
+				padding-top: 15px;
+				margin-top: 10px;
+				font-size: 13px;
+				>a{
+					text-transform: uppercase;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+.ed-pd-log{
+	padding: 0;
+	@include down(sm){
+		padding: 0 15px;
+	}
+}
+
+.form-forget-pass{
+	>h4{
+		font-size: 16px !important;
+		font-weight: 600;
+	}
+}
